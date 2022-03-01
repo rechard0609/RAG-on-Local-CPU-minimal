@@ -1,0 +1,154 @@
+# Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+
+Copyright © 2022 정상혁 (Sanghyuk Jung)
+
+---
+
+## 📜 라이선스
+
+본 저작물은 크리에이티브 커먼즈 저작자표시-비영리-변경금지 4.0 국제 라이선스에 따라 이용할 수 있습니다.
+
+[라이선스 전문 보기](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ko)
+
+---
+
+## ℹ️ 저작 정보
+
+- **저작자**: 정상혁 (Sanghyuk Jung)
+- **저작물명**: RAG-on-Local-CPU-minimal - 신입사원을 위한 RAG 구조 학습 (디버깅으로 배우는 최소 구현)
+- **작성 기간**: 2022년 3월 ~ 2022년 6월
+- **작성 환경**: 개인 시간, 개인 장비, 개인 비용으로 제작
+- **저작권**: 본 저작물의 모든 저작권은 정상혁 개인에게 있습니다
+
+---
+
+## ✅ 허용 사항
+
+본 라이선스 하에서 다음 행위가 허용됩니다:
+
+### 공유 (Share)
+- 개인 학습 목적의 열람 및 다운로드
+- 비영리 목적의 복제 및 배포
+- 출처를 명시한 후 공유 (아래 출처 표시 방법 참고)
+
+---
+
+## ❌ 금지 사항
+
+본 라이선스 하에서 다음 행위는 **엄격히 금지**됩니다:
+
+### 1. 상업적 이용 금지 (NonCommercial)
+다음과 같은 상업적 이용은 허용되지 않습니다:
+
+- ❌ 유료 강의 또는 교육에 사용
+- ❌ 사내 교육 자료로 사용 (유료 서비스)
+- ❌ 컨설팅 또는 용역 서비스에 활용
+- ❌ 광고 수익을 목적으로 한 배포
+- ❌ 기타 금전적 이득을 목적으로 한 사용
+
+### 2. 변경 금지 (NoDerivatives)
+다음과 같은 변경 및 2차 저작은 허용되지 않습니다:
+
+- ❌ 내용 수정, 변형, 추가, 삭제
+- ❌ 번역 또는 각색
+- ❌ 재구성 또는 리믹스
+- ❌ 본 저작물을 기반으로 한 2차 저작물 제작
+- ❌ 일부 발췌 후 재편집
+
+단, 오탈자 수정이나 오류 정정을 위한 풀 리퀘스트는 환영합니다.
+
+### 3. 재배포 제한
+- ❌ 저작자 허락 없는 대량 재배포
+- ❌ 출처를 명시하지 않은 공유
+- ❌ 라이선스 조건을 변경한 재배포
+
+---
+
+## 📋 출처 표시 방법
+
+본 저작물을 공유할 때는 다음과 같이 출처를 명시해야 합니다:
+
+### 권장 표기 형식
+```
+출처: RAG-on-Local-CPU-minimal - 신입사원을 위한 RAG 구조 학습
+저작자: 정상혁 (Sanghyuk Jung)
+라이선스: CC BY-NC-ND 4.0
+원본: https://github.com/rechard0609/RAG-on-Local-CPU-minimal
+```
+
+---
+
+## 💼 상업적 이용 문의
+
+다음과 같은 상업적 이용을 원하시는 경우 별도 문의 바랍니다:
+
+### 라이선스 구매 가능 항목
+- 🏢 기업 교육용 라이선스
+- 🎓 교육 기관 강의 자료 사용
+- 📝 컨설팅 또는 용역 프로젝트 활용
+- 🔄 내용 수정 및 커스터마이징 권한
+
+### 문의 방법
+- **이메일**: j4angguiop@gmail.com
+- **제목**: [라이선스 문의] 상업적 이용 문의
+- **내용**: 
+  - 이용 목적
+  - 예상 사용 범위
+  - 기간 및 인원
+  - 기타 요청 사항
+
+---
+
+## 🔒 추가 고지 사항
+
+### 저작권 침해 신고
+본 저작물의 무단 상업적 이용 또는 변형을 발견하신 경우:
+- **신고 이메일**: j4angguiop@gmail.com
+- 관련 증빙 자료와 함께 신고 바랍니다
+
+### 법적 책임
+본 저작물을 라이선스 조건에 위배하여 사용할 경우:
+- 민사상 손해배상 청구 대상이 될 수 있습니다
+- 형사상 저작권법 위반으로 처벌받을 수 있습니다
+
+---
+
+## 📖 라이선스 요약
+
+| 항목 | 내용 |
+|------|------|
+| **저작자 표시** | ✅ 필수 |
+| **비영리** | ✅ 영리 목적 사용 금지 |
+| **변경 금지** | ✅ 수정 및 2차 저작 금지 |
+| **공유** | ✅ 출처 표시 시 가능 |
+
+---
+
+## 🌐 전체 라이선스 조문
+
+본 요약문은 이해를 돕기 위한 것이며, 법적 효력은 아래 전문을 따릅니다:
+
+**라이선스 전문**: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.ko
+
+---
+
+## ⚖️ 면책 조항
+```
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR 
+OTHER DEALINGS IN THE SOFTWARE.
+```
+
+본 저작물은 "있는 그대로" 제공되며, 저작자는 본 저작물의 사용으로 인한 
+어떠한 손해에 대해서도 책임을 지지 않습니다.
+
+---
+
+**마지막 업데이트**: 2022년 6월
+**저작권자**: 정상혁 (Sanghyuk Jung)
+**연락처**: j4angguiop@gmail.com
