@@ -229,6 +229,47 @@ RAG-on-Local-CPU-minimal/
 - ✅ SI·PoC·제안서 투입 가능
 
 ---
+## 🔑 API Key 설정
+
+### 1. 템플릿 파일 복사
+```bash
+cd gateway/secrets
+cp api_keys.yaml.example api_keys.yaml
+```
+
+### 2. API Key 발급
+
+각 서비스에서 API Key를 발급받으세요: Anthropic 은 키발급만 되고 토큰은 유료만 이용가능합니다.
+
+- **OpenAI**: https://platform.openai.com/api-keys
+- **Anthropic**: https://console.anthropic.com/settings/keys
+- **Google AI**: https://aistudio.google.com/app/apikey
+- **Upstage**: https://console.upstage.ai/api-keys
+
+### 3. `api_keys.yaml` 편집
+
+발급받은 키를 입력하세요:
+```yaml
+openai:
+  api_key: "sk-proj-xxxxxxxxxxxxx"  # 실제 키 입력
+
+anthropic:
+  api_key: "sk-ant-xxxxxxxxxxxxx"  # 실제 키 입력
+```
+
+### 4. 확인
+```bash
+# 파일이 .gitignore에 포함되었는지 확인
+git status  # api_keys.yaml이 표시되지 않아야 함
+```
+
+### ⚠️ 주의사항
+
+- ❌ `api_keys.yaml` 파일을 절대 Git에 커밋하지 마세요
+- ✅ `api_keys.yaml.example`만 GitHub에 올립니다
+- 🔒 실수로 키를 올렸다면 즉시 키를 재발급하세요
+
+
 
 ## 📜 라이선스
 

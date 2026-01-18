@@ -17,9 +17,17 @@ docs/Day10 ebook/
 # ============================================================
 # API Keys & Secrets (보안)
 # ============================================================
+# secrets 폴더 전체 무시
 secrets/
 */secrets/
 **/secrets/
+
+# 하지만 .example 파일은 예외 처리 (추적 허용)
+!secrets/*.example
+!*/secrets/*.example
+!**/secrets/*.example
+
+# 개별 파일도 명시적으로 차단
 api_keys.yaml
 **/api_keys.yaml
 *.key
