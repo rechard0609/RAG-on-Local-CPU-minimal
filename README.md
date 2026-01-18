@@ -66,7 +66,7 @@
 | **Day 5** | Embedding & Vector DB | • SentenceTransformer<br>• FAISS 설치 및 사용<br>• Ingest (문서 색인)<br>• Top-K 검색 | ✅ **제공** |
 | **Day 6** | Reranker & Hybrid Search | • Vector + Keyword Search<br>• BM25 Reranker<br>• Score Fusion<br>• Top-N 정렬 | ✅ **제공** |
 | **Day 7** | Orchestration (3-Stage) | • 3단계 파이프라인<br>• step_retrieve()<br>• step_rerank()<br>• step_generate()<br>• Trace 객체 | ✅ **제공** |
-| **Day 8** | LLM Gateway + 외부 API 연결 | • Gateway 구조 학습<br>• 외부 LLM API 연결 (OpenAI 등)<br>• 로컬 LLM 통합<br>• API Key 기반 인증<br>• UI 챗봇 기본 구조 | ✅ **제공** |
+| **Day 8** | LLM Gateway + 외부 API 연결 | • Gateway 패턴 구조 학습<br>• 외부 LLM API 실제 연결 (OpenAI, Claude, Gemini)<br>• 로컬 LLM 통합 (Upstage Solar)<br>• API Key 기반 인증 설정<br>• router.py 라우팅 로직 (build_llm)<br>• Web UI 테스트 인터페이스<br>• Max Tokens/Temperature 파라미터 제어<br>• Gateway Status 확인 (요청수, 지연시간, 토큰) | ✅ **제공** |
 | **Day 9** | Gateway + RAG 통합 | • Gateway에 RAG 파이프라인 연결<br>• 문서 검색 + 외부 LLM 생성<br>• Vector DB 실제 사용<br>• 모델별 비교 | ❌ **전자책 전용** |
 | **Day 10** | 최종 통합 시스템 | • 전체 시스템 통합<br>• 외부 API + 로컬 모델 혼용<br>• 에이전트 패턴<br>• 오케스트레이션 고도화<br>• Vector DB 실전 활용 | ❌ **전자책 전용** |
 
