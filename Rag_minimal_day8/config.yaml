@@ -7,20 +7,25 @@ llm:
       model: gpt-4o-mini
 
     gemini:
-      model: gemini-1.5-flash
+      model: gemini-2.5-flash
+      #model: gemini-1.5-flash-latest  # ✅ 또는
+      #model: gemini-1.5-flash          # ✅ (현재 설정)
 
     claude:
-      model: claude-3-sonnet
+      model: claude-3-5-sonnet-20241022  # ✅ 최신
+      # 또는
+      model: claude-3-sonnet-20240229    # ✅ 구버전
 
     # Upstage SOLAR (OpenAI-compatible endpoint)
     solar:
-      model: solar-10.7b
-      base_url: https://api.upstage.ai/v1
+      model: solar-1-mini-chat  # ✅ 가장 일반적
+      # 또는
+      model: solar-pro             # ✅ Pro 버전
 
     # Local CPU LLM (llama.cpp server container)
     local:
       endpoint: http://local-llm:8080
-      model: mistral-7b.Q4_K_M.gguf
+      model: tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf  # ✅ 변경 후
 
 gateway:
   timeout_seconds: 60

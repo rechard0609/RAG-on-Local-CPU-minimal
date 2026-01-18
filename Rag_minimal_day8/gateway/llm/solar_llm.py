@@ -3,7 +3,7 @@ from __future__ import annotations
 import requests
 
 from .base import BaseLLM, LLMResult
-from gateway.settings import API_KEYS
+from settings import API_KEYS
 
 
 class SolarLLM(BaseLLM):

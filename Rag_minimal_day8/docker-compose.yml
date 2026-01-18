@@ -20,9 +20,9 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./models:/models:ro
+      - ./models:/models
     environment:
-      - MODEL_PATH=/models/mistral-7b.Q4_K_M.gguf
+      - MODEL_PATH=/models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf
       - N_THREADS=4
       - N_CTX=2048
 
