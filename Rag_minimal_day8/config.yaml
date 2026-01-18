@@ -1,0 +1,40 @@
+llm:
+  # default provider used when UI/API does not specify a model
+  default: solar
+
+  providers:
+    openai:
+      model: gpt-4o-mini
+
+    gemini:
+      model: gemini-1.5-flash
+
+    claude:
+      model: claude-3-sonnet
+
+    # Upstage SOLAR (OpenAI-compatible endpoint)
+    solar:
+      model: solar-10.7b
+      base_url: https://api.upstage.ai/v1
+
+    # Local CPU LLM (llama.cpp server container)
+    local:
+      endpoint: http://local-llm:8080
+      model: mistral-7b.Q4_K_M.gguf
+
+gateway:
+  timeout_seconds: 60
+  cors_allow_origins:
+    - http://localhost:3000
+    - http://127.0.0.1:3000
+
+monitoring:
+  traces_keep_last: 50
+
+pricing_per_1k_tokens_usd:
+  # NOTE: placeholder rates for learning purposes only.
+  openai: 0.001
+  gemini: 0.001
+  claude: 0.003
+  solar: 0.0005
+  local: 0.0

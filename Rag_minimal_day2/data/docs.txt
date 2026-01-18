@@ -1,0 +1,4 @@
+RAG는 Retrieval Augmented Generation의 약자이다.
+LLM은 문서를 직접 학습하지 않고, 컨텍스트를 통해 답변한다.
+RAG는 검색과 생성을 결합한 구조이다.
+AI 시스템은 파이프라인으로 설계된다.

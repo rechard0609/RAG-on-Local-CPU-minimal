@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Day8 LLM Gateway Test UI</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 20px; }
+    .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    textarea { width: 100%; min-height: 120px; }
+    .card { border: 1px solid #ddd; border-radius: 10px; padding: 12px; margin-top: 12px; }
+    .muted { color: #666; font-size: 13px; }
+    button { padding: 10px 14px; border-radius: 10px; border: 1px solid #bbb; cursor: pointer; }
+    select, input { padding: 10px 12px; border-radius: 10px; border: 1px solid #bbb; }
+    pre { white-space: pre-wrap; word-break: break-word; }
+  </style>
+</head>
+<body>
+  <h1>Day8 LLM Gateway Test UI</h1>
+  <div class="muted">모델을 바꿔가며 호출하고, /status로 모니터링을 확인합니다.</div>
+
+  <div class="card">
+    <div class="row">
+      <label>Model
+        <select id="model">
+          <option value="solar">solar (Upstage)</option>
+          <option value="openai">openai</option>
+          <option value="gemini">gemini</option>
+          <option value="claude">claude</option>
+          <option value="local">local (CPU)</option>
+        </select>
+      </label>
+
+      <label>Max tokens
+        <input id="maxTokens" type="number" value="512" min="1" max="4096" />
+      </label>
+
+      <label>Temp
+        <input id="temp" type="number" value="0.2" min="0" max="2" step="0.1" />
+      </label>
+
+      <button id="btnSend">Send</button>
+      <button id="btnStatus">Refresh Status</button>
+    </div>
+
+    <div style="margin-top: 10px;">
+      <textarea id="prompt" placeholder="질문을 입력하세요...">RAG Gateway 테스트입니다. 한 문단으로 이 시스템의 목적을 설명해줘.</textarea>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <div><b>Gateway Status</b> <span class="muted">(GET /status)</span></div>
+    </div>
+    <pre id="status" class="muted">-</pre>
+  </div>
+
+  <div class="card">
+    <div><b>Response</b> <span class="muted">(POST /query)</span></div>
+    <pre id="resp">-</pre>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

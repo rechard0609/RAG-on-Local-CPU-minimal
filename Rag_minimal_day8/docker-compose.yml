@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  gateway:
+    build: ./gateway
+    container_name: rag-day8-gateway
+    ports:
+      - "8000:8000"
+    depends_on:
+      - local-llm
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./secrets:/app/secrets:ro
+    environment:
+      - LOG_LEVEL=INFO
+
+  local-llm:
+    build: ./local_llm
+    container_name: rag-day8-local-llm
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./models:/models:ro
+    environment:
+      - MODEL_PATH=/models/mistral-7b.Q4_K_M.gguf
+      - N_THREADS=4
+      - N_CTX=2048
+
+  ui:
+    build: ./ui
+    container_name: rag-day8-ui
+    ports:
+      - "3000:80"
+    depends_on:
+      - gateway

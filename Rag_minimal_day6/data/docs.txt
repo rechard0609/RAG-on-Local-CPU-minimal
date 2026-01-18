@@ -1,0 +1,8 @@
+RAG는 Retrieval Augmented Generation의 약자이다.
+Embedding은 텍스트를 의미를 담은 숫자 벡터로 바꾸는 과정이다.
+Vector Search는 의미가 비슷한 문서를 찾는다.
+BM25는 키워드 기반 검색 방식이다.
+Reranker는 후보 문서들을 질문 적합도 기준으로 다시 정렬한다.
+Hybrid Search는 Vector Search와 Keyword Search를 결합한다.
+Top-K는 1차 후보군 크기이고 Top-N은 최종 컨텍스트 개수이다.
+LLM은 검색된 컨텍스트를 기반으로 답변을 생성한다.

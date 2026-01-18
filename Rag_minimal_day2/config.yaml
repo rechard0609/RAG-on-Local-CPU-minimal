@@ -1,0 +1,5 @@
+data:
+  document_path: "data/docs.txt"
+
+pipeline:
+  max_docs: 3

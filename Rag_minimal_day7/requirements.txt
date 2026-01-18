@@ -1,0 +1,33 @@
+1️⃣ 필수 패키지 (requirements.txt)
+# --- Web API ---
+fastapi==0.110.0
+uvicorn==0.27.1
+
+# --- Data / Utils ---
+pydantic==2.6.1
+numpy==1.26.4
+
+# --- Text Processing ---
+scikit-learn==1.4.0
+
+# --- Optional (개발 편의) ---
+python-dotenv==1.0.1
+
+2️⃣ 설치 명령 (가상환경 기준)
+▶ 가상환경 생성 (권장)
+python -m venv .venv
+
+▶ 가상환경 활성화 (Windows PowerShell)
+.venv\Scripts\Activate.ps1
+
+▶ 패키지 설치
+pip install -r requirements.txt
+
+3️⃣ 패키지 역할 매핑 (신입 설명용)
+패키지	쓰는 이유
+fastapi	API 서버 / 요청 진입점
+uvicorn	ASGI 서버 실행기
+pydantic	Request / Response 모델
+numpy	벡터 계산 (Embedding 결과)
+scikit-learn	cosine similarity / BM25-lite
+python-dotenv	환경변수 (선택)
