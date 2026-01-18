@@ -259,8 +259,10 @@ anthropic:
 
 ### 4. 확인
 ```bash
-# 파일이 .gitignore에 포함되었는지 확인
-git status  # api_keys.yaml이 표시되지 않아야 함
+# 폴더와 파일을 생성해야 합니다. 로컬에서 만들어서 확인 필요
+api_keys.yaml 을 별도로 만들어야 함.
+위치 secrets/api_keys.yaml
+현재 secrets/api_keys.yaml.example
 ```
 
 ### ⚠️ 주의사항
